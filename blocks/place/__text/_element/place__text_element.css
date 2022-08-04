@@ -1,0 +1,20 @@
+.place__text_element {
+  margin: 0;
+  padding-bottom: 26px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 163%;
+}
+
+@media screen and (max-width:768px) {
+  .place__text_element {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .place__text_element {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
