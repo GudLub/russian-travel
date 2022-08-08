@@ -8,11 +8,16 @@
   gap: 40px;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     max-width: 928px;
     grid-template-columns: 440px auto;
     gap: 32px;
+    margin-bottom: 79px;
   }
 }
 
@@ -20,14 +25,23 @@
   .place {
     max-width: 720px;
     grid-template-columns: 340px auto;
-    gap: 28px;
+    gap: 25px;
+    margin-bottom: 72px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
     grid-template-columns: 320px;
-    gap: 32px;
-    margin-bottom: 24px;
+    gap: 28px;
+    margin-bottom: 50px;
+  }
+
+  .place:nth-child(1) {
+    margin-bottom: 75px;
+  }
+
+  .place:nth-child(4) {
+    margin-bottom: 75px;
   }
 }
